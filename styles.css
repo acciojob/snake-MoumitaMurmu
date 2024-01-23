@@ -1,24 +1,25 @@
-#gameContainer{
-    text-align: center;
+/* style.css */
+#gameContainer {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
 }
 
-#gameBoard{
-    border: 3px solid;
+.pixel {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ddd;
 }
 
-#scoreText{
-    font-family: "permanent Marker", cursive;
-    font-size: 100px;
+.food {
+  background-color: red;
 }
 
-#resetBtn{
-    font-family: "permanent Marker", cursive;
-    font-size: 22px;
-    width: 100px;
-    height: 50px;
-    border: 4px solid;
-    border-radius: 15px;
-    cursor: pointer;
+.snakeBodyPixel {
+  background-color: green;
 }
-   
-/* Your CSS Code here. */
+
+.scoreBoard {
+  margin-top: 10px;
+}
